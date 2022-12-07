@@ -3,11 +3,13 @@ this simple software verifies the password you have entered
 
 #this below is the source code for password analyzer
 
-#creating tkinter 
+#creating tkinter. 
+
+
+
+
 from tkinter import *
-
 box=Tk()
-
 box.title("Secure shell")
 box.geometry("300x300")
 text=Label(box,text="Password Analyzer")
@@ -18,8 +20,6 @@ e1.place(x=80,y=70)
 t2=Label(box,text="Password: ").place(x=80,y=100)
 e2=Entry(box,width=20)
 e2.place(x=80,y=120)
-
-
 #creating definition for the process of password analyzing 
 def press():
 
